@@ -1,0 +1,9 @@
+_extends: .github
+
+branches:
+  - name: master
+    protection:
+      restrictions:
+        teams:
+          - third-team
+        users: []
